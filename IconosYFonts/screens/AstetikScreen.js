@@ -11,13 +11,13 @@ export default function AstetikScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B8C4A9', // Fondo de AsteTik
+    backgroundColor: '#B8C4A9', 
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
-    fontFamily: 'DMSerifText_400Regular',
+    fontFamily: 'DMSerifText_400Regular', //Fuente implementada
     fontSize: 20,
-    color: '#FFFFFF', // Texto blanco
+    color: '#FFFFFF', 
   },
 });

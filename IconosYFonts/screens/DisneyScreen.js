@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function DisneyScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Pantalla Disney con fuente DM Serif Text</Text>
+      <Text style={styles.text}>Pantalla Disney con fuente Barriecito</Text>
     </View>
   );
 }
@@ -11,13 +11,13 @@ export default function DisneyScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F2AEBB', // Fondo de Disney
+    backgroundColor: '#F2AEBB', 
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
-    fontFamily: 'DMSerifText_400Regular',
+    fontFamily: 'Barriecito_400Regular', //Fuente implementada
     fontSize: 20,
-    color: '#FFFFFF', // Texto blanco
+    color: '#FFFFFF', 
   },
 });

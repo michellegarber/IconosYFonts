@@ -11,13 +11,13 @@ export default function RoboticaScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#3C467B', // Fondo de Robotica
+    backgroundColor: '#3C467B', 
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
-    fontFamily: 'NunitoSans_400Regular',
+    fontFamily: 'NunitoSans_400Regular', //Fuente implementada
     fontSize: 20,
-    color: '#FFFFFF', // Texto blanco
+    color: '#FFFFFF',
   },
 });
