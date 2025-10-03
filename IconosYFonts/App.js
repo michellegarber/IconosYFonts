@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { useFonts } from 'expo-font';   //Import biblioteca de fonts
-import { Ionicons } from '@expo/vector-icons';   //Import biblioteca de icons
+import { useFonts } from 'expo-font';   //Import libreria de fonts
+import { Ionicons } from '@expo/vector-icons';   //Import libreria de icons
 
 // Fuentes que vamos a usar
 import { Roboto_400Regular } from '@expo-google-fonts/roboto';
